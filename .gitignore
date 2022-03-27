@@ -1,0 +1,15 @@
+# build
+dist
+
+# log
+npm-debug.log*
+yarn-error.log*
+
+
+# dependencies
+node_modules
+
+# misc
+.cache
+.eslintcache
+.DS_Store

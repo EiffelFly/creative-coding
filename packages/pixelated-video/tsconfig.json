@@ -1,0 +1,10 @@
+{
+  "extends": "@creative-coding/config/tsconfig-react.json",
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "types",
+    "emitDeclarationOnly": true
+  }
+}
